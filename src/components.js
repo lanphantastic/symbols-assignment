@@ -18,8 +18,9 @@ export const Header = {
         textDecoration: window.location.pathname === props.href ? 'underline' : 'none'
       })
     },
-    Text_logo: { href: '/', text: 'Hello!' },
-    Text_about: { href: '/about', text: 'About' }
+    Text_logo: { href: "/", text: "Hello!" },
+    Text_about: { href: "/about", text: "About" },
+    Text_grid_selection: { href: "/grid-selection", text: "Grid Selection" },
   },
 
   ThemeSwitcher: {}
