@@ -1,8 +1,6 @@
 // pages.js
 "use strict";
 
-import { GridSelection } from "./gridSelection";
-
 export default {
   "/": {
     H1: { text: "Hello Symbols" },
@@ -14,7 +12,12 @@ export default {
   },
   "/grid-selection": {
     H3: { text: "Grid Selection" },
-    GridSelection: GridSelection,
+    H4: { text: "Enter X value" },
+    GridXByInput: {},
+    H5: { text: "Enter Y value" },
+    GridYByInput: {},
+    CreateXYGridByButton: {},
+    GridSelection: {},
     Link: {
       href: "/",
       text: "Go Back",
