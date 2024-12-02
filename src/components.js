@@ -140,7 +140,7 @@ export const GridSelection = {
   },
   footer: {
     text: (element, state) =>
-      `Selected: (${state.y}, ${state.selectedKey}), Total: ${state.x}`,
+      `Selected: (${state.y}, ${state.selectedKey}) Total: ${state.x}`,
   },
 };
 
@@ -153,6 +153,7 @@ export const GridBox = {
         aspectRatio: "1 / 1",
         backgroundColor: "white",
         ":hover": {
+          cursor: "pointer",
           backgroundColor: "red",
         },
       };
@@ -161,6 +162,7 @@ export const GridBox = {
         aspectRatio: "1 / 1",
         backgroundColor: "green",
         ":hover": {
+          cursor: "pointer",
           backgroundColor: "skyBlue",
         },
       };
